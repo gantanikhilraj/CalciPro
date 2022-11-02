@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD994E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="504dp"
+        android:text="CLICK ON ONE OF THE OPTIONS BELOW"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <Button
+        android:id="@+id/sumbtn"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="389dp"
+        android:background="@drawable/round_shape"
+        android:text="ADDITION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/subbtn"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="313dp"
+        android:background="@drawable/round_shape"
+        android:text="SUBTRACTION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#5178BA" />
+
+    <Button
+        android:id="@+id/multibtn"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/round_shape"
+        android:text="MULTIPLICATION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#3ABA36" />
+
+    <Button
+        android:id="@+id/divbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="151dp"
+        android:background="@drawable/round_shape"
+        android:text="DIVISION"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#2C3E7A" />
+
+</RelativeLayout>
